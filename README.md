@@ -59,3 +59,11 @@ How to check if you can login or not :
     # The only variable you need to pass are :
         - email
         - password (not hashedPassword)
+
+Restriction to create a new movie in the DB :
+
+/!\ You need to be connected in the first place /!\
+
+    Select POST option on Postman
+    Enter the relative informations needed
+    Since you're registered and logged in, user_id is automatically determined with the cookie
